@@ -1,0 +1,285 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aliceblue; */
+    
+}
+
+/* utility class  */
+
+font{
+    font-family: 'IM Fell English', serif;
+}
+
+center{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+}
+
+
+
+/* all body section  */
+
+#allbody{
+    height: 1407px;
+    width: 80%;
+    border: 2px solid rgb(91, 252, 79);
+    margin: auto;
+    /* margin-top: 20px; */
+    /* background-color: rgb(244, 244, 244) */
+    
+}
+#allbody::before{
+    content: "";
+    background-image: url(img/body\ bg.png);
+    /* background-size: cover; */
+    width: 100%;
+    height: 1407px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* founder section  */
+.ceo{
+    font-family: 'IM Fell English', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    gap: 10px;
+    background-color: whitesmoke;
+}
+.ceo img{
+   height: 40px;
+}
+
+
+
+/* navbar section  */
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    padding: 15px;
+    /* margin-top: 50px; */
+}
+.navbar ul{
+   align-items: center;
+   justify-content: center;
+}
+.navbar ul li{
+   padding: 0px 30px;
+}
+.navbar ul li a{
+   color: rgb(255, 254, 254);
+   padding: 9px 35px;
+   font-family: cursive;
+   transition: all 0.3s ease-out;
+}
+.navbar ul li a:hover{
+   background-color: rgb(245, 244, 244);
+   color: rgb(2, 2, 2);
+   border-radius: 10px;
+   background-color: #fff;
+   color: #333;
+   font-size:medium;
+ ;
+}
+   
+
+
+/* college name section  */
+
+
+.collegename img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    /* margin: auto; */
+    /* margin-top: 30px; */
+    padding: 30px;
+    transition: all 2s ease-in-out;
+
+}
+.collegename img:hover{
+    transform: rotate(180deg);
+
+}
+
+.collegename{
+    background-color: rgb(161, 245, 245);
+    box-shadow: 0px 6px 5px #1d1b1b;
+    
+}
+.collegename h1{
+    height: 190px;
+    font-size: 10rem;
+    font-family: 'IM Fell English', serif;
+    color: red;
+    text-shadow: rgb(4, 4, 4) 5px 10px;
+}
+.dspmu{
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    
+}
+.dspmu:hover{
+    color: rgb(230, 243, 114);
+    
+}
+
+
+/* info section  */
+
+.infosection{
+    display: flex;
+    /* gap: 50px; */
+    /* margin: auto; */
+    padding: 24px 35px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.infosection img{
+    width: 165px;
+    box-shadow: rgb(29, 27, 27) 9px 8px 15px;
+
+}
+.infosection p{
+    width: 900px;
+    padding: 50px;
+    font-family: 'IM Fell English', serif;
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+#modiimg{
+    box-shadow: rgb(29, 27, 27) -9px 8px 15px;
+}
+
+/* main footer section  */
+
+
+
+.moreinformation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 12px;
+    font-family: 'IM Fell English', serif;
+    letter-spacing: 5px;
+    
+}
+
+ .form{
+   /* border: 4px solid yello;
+    */
+    background-color: rgb(101, 99, 99);
+    color: yellow;
+    /* cursor: pointer; */
+    /* font-size: 20px; */
+ }
+ .form input:hover{
+    border-color: rgb(255, 249, 249);
+ }
+
+ .name{
+    padding: 10px 400px;
+    font-family: 'IM Fell English', serif;
+ }
+
+ .mobile{
+    padding: 5px 400px;
+    font-family: 'IM Fell English', serif;
+ }
+ .email{
+    padding: 5px 400px;
+    font-family: 'IM Fell English', serif;
+ }
+ .sem{
+    padding: 5px 400px;
+    font-family: 'IM Fell English', serif;
+ }
+ .name input{
+    padding: 5px 44px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: #aedde8;
+    color: black;
+    
+ } .mobile input{
+    padding: 5px 44px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 8px;
+    background-color: #aedde8;
+    color: black;
+ } .email input{
+    padding: 5px 44px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #aedde8;
+    color: black;
+ } .sem select{
+    padding: 5px 44px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 17px;
+    background-color: #aedde8;
+    color: black;
+ }
+ .sem select:hover{
+    border-color: rgb(255, 249, 249);
+ }
+ .submit{
+    padding: 15px 400px;
+ }
+ 
+ .submit input{
+    /* margin-top: 10px; */
+    padding: 5px 148px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+ }
+ .submit input:hover{
+    background-color: rgb(158, 250, 253);
+    color: rgb(3, 3, 3);
+    border-color: red;
+ }
+
+ /* sub footer section  */
+
+ .subfooter{
+    padding: 10px 20px;
+    background-color: #1d1b1b;
+    color: whitesmoke;
+ }
+ .subfooter h4{
+    padding: 0 420px;
+    font-family: 'IM Fell English', serif;
+ }
+
